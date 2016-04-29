@@ -138,7 +138,7 @@ class loginControl {
     }
     
     function checkIdentity($identity) {
-        if ($identity == 'seller' || $identity == 'buyter') {
+        if ($identity == 'seller' || $identity == 'buyer') {
             return true;
         }
         $this->addError("Please select your identity");
